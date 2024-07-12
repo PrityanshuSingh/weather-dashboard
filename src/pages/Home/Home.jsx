@@ -85,7 +85,7 @@ const Home = () => {
             console.error('Error fetching data:', error);
             setAlert({
                 type: 'error',
-                message: `Error fetching  3 weather conditions !`,
+                message: `Error fetching weather conditions !`,
                 position: 'bottom-right',
                 duration: 4000,
         
@@ -124,7 +124,7 @@ const Home = () => {
                 console.error('Error fetching data:', error);
                 setAlert({
                     type: 'error',
-                    message: `Error fetching 2 weather conditions !`,
+                    message: `Error fetching weather conditions !`,
                     position: 'bottom-right',
                     duration: 4000,
             
@@ -168,7 +168,7 @@ const Home = () => {
                 console.error('Error fetching data:', error);
                 setAlert({
                     type: 'error',
-                    message: `Error fetching  1 weather conditions !`,
+                    message: `Error fetching weather conditions !`,
                     position: 'bottom-right',
                     duration: 4000,
             
