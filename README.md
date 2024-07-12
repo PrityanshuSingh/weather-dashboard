@@ -9,6 +9,10 @@ Working video demo of the Weather Dashboard:
 
 
 
+https://github.com/user-attachments/assets/3acb29bc-67c0-447a-9c74-378e2dbf3009
+
+
+
 ## Features
 
 ### User-Focused Features:
