@@ -13,6 +13,8 @@ const weatherImages = {
     'broken clouds': 'https://img.freepik.com/free-photo/cloudy-sky-landscape-wallpaper_23-2149134115.jpg?t=st=1720800740~exp=1720804340~hmac=2ee01df37441a869eb9b758b04968ae6e71f082225036707ed593c4a33584b5a&w=900',
     'shower rain': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMShOhjWg0SZU8LWcoodgtj9BS4Oqu3xtBSg&s',
     'rain': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMShOhjWg0SZU8LWcoodgtj9BS4Oqu3xtBSg&s',
+    'light rain': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMShOhjWg0SZU8LWcoodgtj9BS4Oqu3xtBSg&s',
+    'moderate rain': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMShOhjWg0SZU8LWcoodgtj9BS4Oqu3xtBSg&s',
     'thunderstorm': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRb_nBnJ3AoquRoI_04shbKSj2VwuRV35nckw&s',
     'snow': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkjw6VYYClf1IvygyA8nQVmn28wB-koG8szQ&s',
     'mist': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa5L8PDQFyNTu6w-4Ils-Cm6xFn9D41XDLbQ&s',
