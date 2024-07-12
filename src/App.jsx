@@ -9,7 +9,7 @@ import Footer from "./layouts/Footer";
 import Home from "./pages/Home/Home";
 import Login from "./pages/Authentication/Login";
 import Signin from "./pages/Authentication/Signin"
-import { AuthProvider } from "./context/AuthContext"; // Adjust the path as per your file structure
+import { AuthProvider } from "./context/AuthContext"; 
 import Profile from "./pages/Profile/Profile";
 
 const themeLight = createTheme({
@@ -62,8 +62,8 @@ const App = () => {
                                 justifyContent: "center",
                                 background:
                                     "linear-gradient(135deg, #ffffff 10%, #e1f5fe 90%)",
-                                backgroundSize: "cover", // Ensure the image covers the entire container
-                                backgroundRepeat: "no-repeat", // Do not repeat the background image
+                                backgroundSize: "cover", 
+                                backgroundRepeat: "no-repeat",
                             }}
                         >
                             <Routes>
