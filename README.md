@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# Weather Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Weather Dashboard is a web application built using React and Material-UI, designed to provide current weather information and forecasts for different cities. Users can search for cities, view detailed weather data, and visualize temperature trends using interactive charts.
 
-In the project directory, you can run:
+### Video Demo
+Working video demo of the Weather Dashboard:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+### User-Focused Features:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **User Authentication**: Optional feature allowing users to sign up, log in, and log out. User preferences, such as favorite cities, are stored in the user profile.
+  
+- **Search Functionality**: Enables users to search for different cities and fetch real-time weather data using the OpenWeatherMap API.
+  
+- **Display Current Weather**: Shows current weather information for the selected city, including temperature, humidity, wind speed, and weather conditions.
+  
+- **7-Day Forecast**: Provides a detailed 7-day weather forecast for the selected city, displaying daily temperatures, weather conditions, and precipitation.
 
-### `npm run build`
+- **Data Visualization**: Implements charts using Chart.js to visualize temperature trends over the next 7 days, enhancing the user experience with interactive graphical representations.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Responsive Design**: Ensures the application is fully responsive and optimized for various screen sizes, ensuring a seamless experience on both desktop and mobile devices.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Error Handling**: Gracefully handles errors such as invalid city names or issues with fetching weather data, providing informative messages to users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Optional Features:
 
-### `npm run eject`
+- **Favorite Cities**: Allows users to save their favorite cities and quickly access weather information for those locations.
+  
+- **Weather Alerts**: Implement a feature to display weather alerts or notifications based on real-time data updates.
+  
+- **Localization Support**: Supports displaying weather information in different languages based on user preferences.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend**: React.js, Material-UI
+- **Charts**: Chart.js
+- **API**: OpenWeatherMap API for weather data
+- **Styling**: Material-UI components for a consistent and modern design
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## How to Run Locally
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+To run the Weather Dashboard locally on your machine, follow these steps:
 
-## Learn More
+1. **Clone Repository**:
+   ```bash
+   git clone https://github.com/PrityanshuSingh/weather-dashboard.git
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Navigate to Project Directory**:
+   ```bash
+   cd weather-dashboard
+   ```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. **Install Dependencies**:
+   Install the required node modules and dependencies for the project.
+   ```bash
+   npm install
+   ```
+   
+4. **Set Up Environment Variables**"
+   - Create a .env file in the root directory.
+   - Add your OpenWeatherMap API key:
+    ```
+    REACT_APP_OPENWEATHERMAP_API_KEY=your-api-key
+    ```
 
-### Code Splitting
+5. **Start Development Server**:
+   ```bash
+   npm start
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6. **Access Local Deployment**:
+   Open your browser and navigate to `http://localhost:3000` to view the Weather Dashboard locally.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Feel free to reach out for any inquiries or assistance regarding Weather Dashboard. Happy coding and weather hunting!
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
